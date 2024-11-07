@@ -5,6 +5,7 @@ import './About.css';
 import AboutBox from './AboutBox';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
 import { SiNextdotjs, SiRedux, SiMongodb, SiPrisma, SiGraphql, SiTypescript, SiFirebase, SiPostgresql, SiTailwindcss, SiAxios, SiReact } from 'react-icons/si';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <h2 className='section__title'>About Me</h2>
 
       <div className='about__container grid'>
-        <img src="images/saba.webp" height={200} width={200} alt='' className='about__img' />
+        <Image src="/images/saba.webp"  height={200} width={200} alt='saba' className='about__img' />
 
         <div className='about__data grid'>
           <div className='about__info'>

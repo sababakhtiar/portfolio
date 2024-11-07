@@ -52,7 +52,7 @@ const Contact = () => {
       <h2 className='section__title'>Get In Touch</h2>
       <div className='contact__container grid'>
         <div className='contact__info'>
-          <h3 className='contact__title'> Let's Talk About Everything!</h3>
+          <h3 className='contact__title'> Lets Talk About Everything!</h3>
           <p className='contact__details'>Send me an email. 👋</p>
         </div>
 

@@ -7,7 +7,7 @@ const Data =[
         icon:"icon-graduation",
         year: "2019-2023",
         title:"BS in Computer Science ",
-        uni:"Government graduate college Samanabad Faisalabad",
+        uni:"Government Graduate College Samanabad Faisalabad",
         desc:"3.86 CGPA",
     },
     {

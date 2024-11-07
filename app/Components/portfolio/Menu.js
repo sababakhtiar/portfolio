@@ -30,7 +30,7 @@ const Menu =[
   },
   {
     id:5,
-    Image: "images/patient.png",
+    Image: "/images/patient.png",
     title:"Patient Appointment Backend App",
     category: "Backend App",
     link:" https://documenter.getpostman.com/view/38915894/2sAXxS7WUa"

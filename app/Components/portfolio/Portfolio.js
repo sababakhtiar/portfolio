@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image'; // Correct import for the Image component
 import "./Portfolio.css";
 import Menu from './Menu';
 
@@ -11,11 +12,11 @@ const Portfolio = () => {
 
       <div className='work__container grid'>
         {Menu.map((elem) => {
-          const { id, Image, title, category, link } = elem;
+          const { id, Image: imageSrc, title, category, link } = elem;
           return (
             <div className='work__card' key={id}>
               <div className='work__thumbnail'>
-                <img src={Image} alt={title} className='work__img' />
+                <Image src={imageSrc} alt={title} className='work__img' width={500} height={300} />
                 <div className='work__mask'></div>
               </div>
               <span className='work__category'>{category}</span>

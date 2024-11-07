@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import "./Sidebar.css";
-
+import Image from 'next/image';
 
 const Sidebar = () => {
 
@@ -10,7 +10,7 @@ const Sidebar = () => {
    <>
     <aside className={toggle ? "aside show-menu" : "aside"}>
     <a href='#home' className='nav__logo'>
-    <img src='/images/saba.webp' alt='sideLogo' />
+    <Image src="/images/saba.webp" height={20} width={20} alt='sideLogo' />
     </a>
 
     <nav className='nav'>
